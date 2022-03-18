@@ -74,5 +74,13 @@ module.exports = {
     // Added support for Markdown files: https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx/
     "gatsby-plugin-mdx",
     "gatsby-transformer-remark",
+
+    {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: "cs",
+        useLangKeyLayout: false,
+      },
+    },
   ],
 };

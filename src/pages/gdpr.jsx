@@ -1,5 +1,6 @@
 // Layout
 import AppLayout from "layouts/AppLayout";
+import CsLayout from "layouts/cs/CsLayout";
 
 // Website settings
 import globalSettings from "settings/globalSettings";
@@ -14,23 +15,25 @@ import GdprPolicy from "containers/Gdpr/GdprPolicy";
 export default function GdprPage() {
   return (
     <AppLayout>
-      <Seo title="Ochrana osobních údajů" robotsEnabled={false} />
+      <CsLayout>
+        <Seo title="Ochrana osobních údajů" robotsEnabled={false} />
 
-      <Hero title="Ochrana osobních údajů" />
+        <Hero title="Ochrana osobních údajů" />
 
-      <div
-        className="ui-wrapper ui-text-formatter pt-20 pb-32"
-        data-wrapper="sm"
-      >
-        <GdprPolicy
-          ownerName={globalSettings.client.fullName}
-          adress={globalSettings.client.adress}
-          email={globalSettings.client.email}
-          phone={globalSettings.client.phone}
-          ico={globalSettings.client.ico}
-          takesEffectDate={globalSettings.launchDate}
-        />
-      </div>
+        <div
+          className="ui-wrapper ui-text-formatter pt-20 pb-32"
+          data-wrapper="sm"
+        >
+          <GdprPolicy
+            ownerName={globalSettings.client.fullName}
+            adress={globalSettings.client.adress}
+            email={globalSettings.client.email}
+            phone={globalSettings.client.phone}
+            ico={globalSettings.client.ico}
+            takesEffectDate={globalSettings.launchDate}
+          />
+        </div>
+      </CsLayout>
     </AppLayout>
   );
 }

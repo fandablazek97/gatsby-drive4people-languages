@@ -1,5 +1,6 @@
 // Layout
 import AppLayout from "layouts/AppLayout";
+import CsLayout from "layouts/cs/CsLayout";
 
 // Website settings
 import globalSettings from "settings/globalSettings";
@@ -14,23 +15,25 @@ import CookiesPolicy from "containers/Cookies/CookiesPolicy";
 export default function CookiesPage() {
   return (
     <AppLayout>
-      <Seo title="Zásady používání cookies" robotsEnabled={false} />
+      <CsLayout>
+        <Seo title="Zásady používání cookies" robotsEnabled={false} />
 
-      <Hero title="Zásady používání cookies" />
+        <Hero title="Zásady používání cookies" />
 
-      <div
-        className="ui-wrapper ui-text-formatter pt-6 pb-32"
-        data-wrapper="sm"
-      >
-        <CookiesPolicy
-          domain={globalSettings.meta.shortUrl}
-          ownerName={globalSettings.client.fullName}
-          adress={globalSettings.client.adress}
-          ico={globalSettings.client.ico}
-          validTime="šest měsíců"
-          lastUpdate="16. 12. 2021"
-        />
-      </div>
+        <div
+          className="ui-wrapper ui-text-formatter pt-6 pb-32"
+          data-wrapper="sm"
+        >
+          <CookiesPolicy
+            domain={globalSettings.meta.shortUrl}
+            ownerName={globalSettings.client.fullName}
+            adress={globalSettings.client.adress}
+            ico={globalSettings.client.ico}
+            validTime="šest měsíců"
+            lastUpdate="16. 12. 2021"
+          />
+        </div>
+      </CsLayout>
     </AppLayout>
   );
 }

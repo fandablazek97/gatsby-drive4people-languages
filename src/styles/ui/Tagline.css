@@ -1,10 +1,10 @@
 .ui-tagline {
   --tagline-font-family: var(--font-sans);
-  --tagline-color: var(--color-primary);
+  --tagline-color: var(--color-gray-500);
   --tagline-font-size: 1rem;
   --tagline-font-weight: 600;
   --tagline-text-transform: uppercase;
-  --tagline-letter-spacing: 0.1em;
+  --tagline-letter-spacing: 0.05em;
   --tagline-mb: 1em;
 
   display: block;

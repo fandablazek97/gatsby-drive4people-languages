@@ -1,24 +1,22 @@
 const globalSettings = {
   meta: {
-    url: "https://domena.cz",
-    shortUrl: "domena.cz",
-    language: "cs",
+    url: "https://drive4people.cz",
+    shortUrl: "drive4people.cz",
     author: "reveal - https://reveal.cz",
-    siteName: "Reveal", // Slouží také jako prefix do záložek v prohlížeči
+    siteName: "Drive4people", // Slouží také jako prefix do záložek v prohlížeči
     description:
-      "React starter se základním nastavením a komponenty pro rychlý start nového reveal projektu.",
+      "Drive4people se zaměřuje se na přepravu osob v rámci Evropy. Nabízíme služby osobního řidiče, expresního kurýra, přepravu na svatby, večírky nebo letiště.",
   },
-  launchDate: "1. 1. 2022",
+  launchDate: "14. 2. 2022",
   client: {
-    fullName: "Jan Novák",
-    companyName: "Firma s.r.o.",
-    ico: "01234567",
-    phone: "+420 123 456 789",
-    email: "info@domena.cz",
-    adress: "Ulice 123, 000 00 Město",
+    fullName: "Lukáš Jiránek",
+    ico: "05564867",
+    phone: "+420 773 997 434",
+    email: "info@drive4people.cz",
+    adress: "Hornická 223, 33 022 Zbůch",
   },
   darkMode: {
-    storageKey: "reveal-theme",
+    storageKey: "drive4people-theme",
     classNameDark: "dark",
   },
 };

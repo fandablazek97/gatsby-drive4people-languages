@@ -7,11 +7,10 @@ export default function NavbarThemeToggler({ className }) {
 
   return (
     <button
-      className={`flex items-center justify-center p-[0.4em]
-      text-[1.7rem] text-rich leading-none
-      bg-default bg-opacity-0 rounded-md
-      transition-colors duration-default
-      hover:bg-opacity-10 focus-visible:a11y-primary
+      className={`duration-default focus-visible:a11y-primary flex items-center
+      justify-center p-[0.4em] text-[1.7rem]
+      leading-none text-white
+      opacity-70 transition-opacity will-change-[opacity] hover:opacity-100
       ${className}`}
       onClick={() => setSetting(setting === "dark" ? "light" : "dark")}
       aria-label="zapnout nebo vypnout tmavý vzhled"

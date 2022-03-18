@@ -6,7 +6,6 @@ import globalSettings from "settings/globalSettings";
 export default function Head() {
   return (
     <Helmet>
-      <html lang={globalSettings.meta.language} />
       <meta charSet="utf-8" />
       <meta name="author" content={globalSettings.meta.author} />
       <meta

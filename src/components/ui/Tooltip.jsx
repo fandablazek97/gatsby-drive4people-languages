@@ -35,7 +35,7 @@ export default function Tooltip({
       {/* Actual tooltip */}
       <span
         className={`absolute z-10 px-[1em] py-[0.75em] cursor-default pointer-events-none
-        rounded-lg shadow-sm
+        rounded-lg shadow-sm border-1 border-gray-100 border-solid
         text-sm font-medium text-center whitespace-nowrap leading-none
         transition-visibility duration-150
         ${isVisible ? "opacity-100 visible" : "opacity-0 invisible"}
@@ -72,7 +72,7 @@ export default function Tooltip({
         {label}
         {hasArrow && (
           <span
-            className={`absolute w-2.5 h-2.5 origin-center rotate-45 bg-gray-800 
+            className={`absolute w-2.5 h-2.5 origin-center rotate-45 bg-gray-800 border-1 border-gray-100 border-solid 
             ${color === "theme" ? "bg-gray-800 dark:bg-gray-100" : ""}
             ${color === "dark" ? "bg-gray-800" : ""}
             ${color === "light" ? "bg-gray-100" : ""}

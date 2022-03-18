@@ -1,19 +1,11 @@
 const socialLinks = {
   instagram: {
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/drive4people/",
     ariaLabel: "odkaz na instagram",
   },
   facebook: {
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/drive4people/",
     ariaLabel: "odkaz na facebook",
-  },
-  linkedin: {
-    link: "https://www.linkedin.com/",
-    ariaLabel: "odkaz na linkedin",
-  },
-  twitter: {
-    link: "https://twitter.com/",
-    ariaLabel: "odkaz na twitter",
   },
 };
 

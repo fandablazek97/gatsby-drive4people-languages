@@ -10,7 +10,7 @@ export default function Badge({
 }) {
   // Dynamic classnames
   const sizeClasses = {
-    sm: "text-xs",
+    sm: "text-[0.5625rem]",
     md: "text-sm",
     lg: "text-base",
     xl: "text-lg",
@@ -27,9 +27,9 @@ export default function Badge({
 
   return (
     <Component
-      className={`py-1.5 px-2 inline-flex items-center justify-center
-      rounded-default bg-opacity-15 
-      uppercase font-sans font-semibold leading-none tracking-widest 
+      className={`rounded-default bg-opacity-15 inline-flex items-center justify-center
+      py-1.5 px-2 
+      font-sans font-semibold uppercase leading-none tracking-widest 
       ${sizeClasses[size]}
       ${colorClasses[color]}
       ${className}
@@ -42,10 +42,10 @@ export default function Badge({
 }
 
 Badge.defaultProps = {
-  as: "span",
+  as: "div",
   children: "Badge",
-  size: "md",
-  color: "success",
+  size: "sm",
+  color: "info",
   className: "",
 };
 

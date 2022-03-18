@@ -13,19 +13,19 @@ export default function NavbarBurgerButton({
       <span className="sr-only">Otevřít / zavřít menu</span>
       <span
         aria-hidden="true"
-        className={`block w-[28px] h-[2px] bg-rich rounded-full transform-gpu transition duration-default ease-out-back ${
+        className={`block w-[28px] h-[2px] bg-white rounded-full transform-gpu transition duration-default ease-out-back ${
           isActivated ? "-rotate-45 translate-y-[7px]" : ""
         }`}
       ></span>
       <span
         aria-hidden="true"
-        className={`block w-[28px] h-[2px] bg-rich rounded-full transform-gpu transition duration-default ease-out-back ${
+        className={`block w-[28px] h-[2px] bg-white rounded-full transform-gpu transition duration-default ease-out-back ${
           isActivated ? "opacity-0 translate-x-1" : ""
         }`}
       ></span>
       <span
         aria-hidden="true"
-        className={`block w-[28px] h-[2px] bg-rich rounded-full transform-gpu transition duration-default ease-out-back ${
+        className={`block w-[28px] h-[2px] bg-white rounded-full transform-gpu transition duration-default ease-out-back ${
           isActivated ? "rotate-45 translate-y-[-7px]" : ""
         }`}
       ></span>
