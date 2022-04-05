@@ -2,7 +2,7 @@ import Link from "components/ui/Link";
 
 export default function LanguageSwitcher({ className }) {
   return (
-    <ul className={`flex space-x-3 lg:space-x-5 ${className}`}>
+    <ul className={`hidden space-x-3 lg:flex lg:space-x-5 ${className}`}>
       <li className="text-sm font-semibold uppercase text-white">
         <Link to="/" className="ui-link" data-link="2">
           Cs

@@ -21,6 +21,7 @@ import SocialMedia from "components/SocialMedia";
 import NavbarBurgerButton from "../NavbarBurgerButton";
 import NavbarThemeToggler from "../NavbarThemeToggler";
 import LanguageSwitcher from "../LanguageSwitcher";
+import LanguageSwitcherMobile from "./LanguageSwitcherMobile";
 
 // Icons
 import { HiPhone } from "react-icons/hi";
@@ -104,6 +105,7 @@ export default function Navbar() {
           ))}
         </ul>
 
+        <LanguageSwitcherMobile />
         <LanguageSwitcher className="mr-2 sm:mr-3 xl:mr-5" />
 
         {/* Desktop & mobile - Theme toggler */}
