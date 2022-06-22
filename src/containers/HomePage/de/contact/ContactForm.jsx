@@ -87,7 +87,13 @@ export default function FormContactTest() {
           isRequired={true}
         />
 
-        <InputFloating type="tel" name="tel" id="tel" label="Telefon" />
+        <InputFloating
+          type="tel"
+          name="tel"
+          id="tel"
+          label="Telefon"
+          isRequired={true}
+        />
       </div>
 
       <TextareaFloating
