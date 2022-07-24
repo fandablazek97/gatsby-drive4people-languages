@@ -1,19 +1,19 @@
 export const prices = [
   {
     caption: "Persönlicher Fahrer mit unserem Wagen",
-    price: "von 700 CZK / std.",
+    price: "von 800 CZK / std.",
   },
   {
     caption: "Persönlicher Fahrer Ihres Wagen",
-    price: "350 CZK / std.",
+    price: "400 CZK / std.",
   },
   {
     caption: "Hochzeiten",
-    price: "von 700 CZK / std.",
+    price: "von 800 CZK / std.",
   },
   {
     caption: "Firmenfeiren und Feste",
-    price: "von 700 CZK / std.",
+    price: "von 800 CZK / std.",
   },
   {
     caption: "Express kurier – auf Anfrage",

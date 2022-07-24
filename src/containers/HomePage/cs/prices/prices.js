@@ -1,19 +1,19 @@
 export const prices = [
   {
     caption: "Osobní řidič s naším vozem",
-    price: "od 700 Kč / hod",
+    price: "od 800 Kč / hod",
   },
   {
     caption: "Osobní řidič Vašeho vozidla",
-    price: "350 kč / hod",
+    price: "400 kč / hod",
   },
   {
     caption: "Svatby",
-    price: "od 700 kč / hod",
+    price: "od 800 kč / hod",
   },
   {
     caption: "Firmení večírky a oslavy",
-    price: "od 700 kč / hod",
+    price: "od 800 kč / hod",
   },
   {
     caption: "Expresní kurýr",
